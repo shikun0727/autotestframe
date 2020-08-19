@@ -1,0 +1,8 @@
+URL: http://www.baidu.com
+driver: D:\GitCode\autotestframe\venv\drivers\chromedriver.exe
+log:
+  log_file_name: 'test.log'
+  backup_count: 5
+  console_lv: WARNING
+  file_lv: DEBUG
+  pattern: '%(asctime)s--%(name)s--%(levelname)s--%(message)s'

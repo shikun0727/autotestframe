@@ -1,0 +1,39 @@
+2020-08-19 22:01:48,946--__main__--DEBUG--这是一个debug
+2020-08-19 22:01:48,946--__main__--INFO--这是一个info
+2020-08-19 22:01:48,947--__main__--WARNING--这是一个warining
+2020-08-19 22:05:53,352--utils.log--INFO--python_百度搜索
+2020-08-19 22:25:37,160--utils.log--ERROR--搜索页面与预期不符
+2020-08-19 22:26:04,108--utils.log--ERROR--搜索页面与预期不符
+2020-08-19 22:28:14,198--utils.log--ERROR--搜索页面与预期不符
+2020-08-19 22:29:31,284--utils.log--ERROR--搜索页面与预期不符
+Traceback (most recent call last):
+  File "D:/GitCode/autotestframe/venv/src/test_baidu.py", line 36, in test_baidu
+    self.assertEqual(title, 'python_百度搜索1')
+  File "D:\Program Files (x86)\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: 'python_百度搜索' != 'python_百度搜索1'
+- python_百度搜索
++ python_百度搜索1
+?            +
+
+
+2020-08-19 22:30:36,505--utils.log--ERROR--搜索页面与预期不符
+Traceback (most recent call last):
+  File "D:/GitCode/autotestframe/venv/src/test_baidu.py", line 36, in test_baidu
+    self.assertEqual(title, 'python_百度搜索1')
+  File "D:\Program Files (x86)\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Program Files (x86)\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Program Files (x86)\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: 'python_百度搜索' != 'python_百度搜索1'
+- python_百度搜索
++ python_百度搜索1
+?            +
+
+
